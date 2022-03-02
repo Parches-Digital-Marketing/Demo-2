@@ -10,27 +10,27 @@ export default function Plans() {
                             <span className="list__title">1 día</span>
                             <span className="list__cost">$375</span>
                             <div className="features">
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
                             </div>
                         </li>
                         <li className="list__item">
                             <span className="list__title">1 mes</span>
                             <span className="list__cost">$3000</span>
                             <div className="features">
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
                             </div>
                         </li>
                         <li className="list__item">
                             <span className="list__title">12 meses</span>
                             <span className="list__cost">$35.000</span>
                             <div className="features">
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
-                                <span className="list__text">Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
+                                <span className="list__text"><i className="fas fa-check"></i> Lorem ipsum dolor sit amet</span>
                             </div>
                         </li>
                     </ul>

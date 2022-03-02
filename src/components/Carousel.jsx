@@ -25,10 +25,8 @@ export default function Carousel({images, selectedImage}) {
                     </div>
                 </div>
                 <div className="wrapper">
-                    {/* <div className="gallery-buttons">
-                    </div> */}
                     <button className="button" onClick={() => moveToPositionAndDirection()}><i className="fas fa-angle-left"></i></button>
-                    <div className="gallery-row">
+                    <div className="gallery-row" id="galleryRow">
                         <ul className="list" id="galleryList">
                             {
                                 images.map((image, id) => {

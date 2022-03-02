@@ -263,7 +263,7 @@ html body .app-container .scroll {
 }
 
 .home-container .scroll {
-  height: 15% !important;
+  height: 10% !important;
 }
 
 .home-container .home {
@@ -276,7 +276,7 @@ html body .app-container .scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 200px;
+  gap: 0px;
   width: 100%;
   height: 102%;
 }
@@ -298,9 +298,9 @@ html body .app-container .scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 
@@ -416,6 +416,7 @@ html body .app-container .scroll {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: 500px;
   }
   .home-container .home .welcome .message-section .message .home__text {
     text-align: center;
@@ -431,8 +432,9 @@ html body .app-container .scroll {
     width: 100%;
   }
   .home-container .home .image-container {
-    -webkit-clip-path: polygon(0 0, 100% 0, 150% 130%, 0 50%);
-            clip-path: polygon(0 0, 100% 0, 150% 130%, 0 50%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 135% 110%, 0 70%);
+            clip-path: polygon(0 0, 100% 0, 135% 110%, 0 70%);
+    height: 300px;
   }
 }
 
@@ -446,7 +448,6 @@ html body .app-container .scroll {
 
 .gallery-container .section {
   width: 100%;
-  padding-left: 400px;
   padding-top: 40px;
   padding-left: 0;
   display: -webkit-box;
@@ -469,7 +470,7 @@ html body .app-container .scroll {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 1380px;
+  max-width: 1450px;
 }
 
 .gallery-container .section .gallery .gallery__title {
@@ -510,6 +511,9 @@ html body .app-container .scroll {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+  .gallery-container .section .scroll {
+    margin-top: -300px;
+  }
   .gallery-container .section .gallery {
     min-width: 100%;
   }
@@ -531,7 +535,6 @@ html body .app-container .scroll {
 
 .about-us-container {
   width: 100%;
-  padding-left: 400px;
   background-color: white;
   height: 655px;
   padding-left: 0;
@@ -550,11 +553,15 @@ html body .app-container .scroll {
   height: 100%;
 }
 
+.about-us-container .section .scroll {
+  height: 10%;
+}
+
 .about-us-container .section .about-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 100px;
+  gap: 0px;
 }
 
 .about-us-container .section .about-us .about-us__image {
@@ -581,7 +588,17 @@ html body .app-container .scroll {
 }
 
 .about-us-container .section .about-us .about-us-info .wrapper {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
 }
 
 .about-us-container .section .about-us .about-us-info .wrapper .about-us__title {
@@ -625,6 +642,7 @@ html body .app-container .scroll {
   .about-us-container .section .about-us .about-us__image {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
             clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+    height: 300px;
   }
   .about-us-container .section .about-us .about-us-info .wrapper {
     display: -webkit-box;
@@ -660,7 +678,6 @@ html body .app-container .scroll {
 
 .plans-container .section {
   width: 100%;
-  padding-left: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -788,6 +805,11 @@ html body .app-container .scroll {
   gap: 40px;
 }
 
+.plans-container .section .plans .list .list__item .features .fas {
+  color: #08BA98;
+  margin-right: 10px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1700px) {
   .plans-container .section {
     width: 100%;
@@ -797,6 +819,9 @@ html body .app-container .scroll {
     padding-bottom: 40px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  .plans-container .section .scroll {
+    top: -350px;
   }
   .plans-container .section .plans {
     width: 100%;
@@ -827,7 +852,6 @@ html body .app-container .scroll {
 
 .contact-container {
   width: 100%;
-  padding-left: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -835,6 +859,9 @@ html body .app-container .scroll {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 400px;
   background-color: #253053;
@@ -843,14 +870,14 @@ html body .app-container .scroll {
 }
 
 .contact-container .section {
-  width: 1120px;
+  width: 1450px;
   padding-top: 20px;
 }
 
 .contact-container .section .scroll {
   z-index: -1;
   left: 0;
-  top: -600px;
+  top: -400px;
 }
 
 .contact-container .section .contact__title {
@@ -881,15 +908,14 @@ html body .app-container .scroll {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
 }
 
 .contact-container .section .contact-info .subtitle {
   color: #08BA98;
-}
-
-.contact-container .section .contact-info .social-media {
-  max-width: 1150px;
 }
 
 .contact-container .section .contact-info .social-media .list {
@@ -969,7 +995,8 @@ html body .app-container .scroll {
   -webkit-box-shadow: 0 0 10px .1px black;
           box-shadow: 0 0 10px .1px black;
   border-radius: 10px;
-  margin-left: 5px;
+  width: 513px;
+  height: 200px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1700px) {
@@ -1123,9 +1150,15 @@ html body .app-container .scroll {
 }
 
 .carousel-container .carousel-section .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1450px;
   height: 600px;
 }
 
@@ -1218,6 +1251,9 @@ html body .app-container .scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -1251,6 +1287,7 @@ html body .app-container .scroll {
 
 .carousel-container .carousel-section .wrapper .gallery-row {
   width: 100%;
+  max-width: 1450px;
   overflow: hidden;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;

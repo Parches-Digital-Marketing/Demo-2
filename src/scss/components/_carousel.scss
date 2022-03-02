@@ -8,9 +8,11 @@
         align-items: center;
         gap: 80px;
         .carousel {
+            display: flex;
+            justify-content: center;
             position: relative;
             width: 100%;
-            max-width: 1000px;
+            max-width: $maxSectionWidth;
             height: 600px;
             .carousel__item {
                 display: none;
@@ -76,6 +78,7 @@
             position: relative;
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 10px;
             .button {
                 display: flex;
@@ -98,6 +101,7 @@
             }
             .gallery-row {
                 width: 100%;
+                max-width: $maxSectionWidth;
                 overflow: hidden;
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;

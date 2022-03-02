@@ -3,7 +3,7 @@ $opacityPrimaryColor: #08ba99a4;
 $opacityWhite: #F5F7FA;
 $textColor: #253053;
 $descriptionColor: #666e86;
-$maxSectionWidth: 1380px;
+$maxSectionWidth: 1450px;
 $leftImage: polygon(-15px 5px, 100% 0px, 100% 100%, 16.7% 100%, 16.60% 99.75%);
 $rigthImage: polygon(0px 0px, 0% 0, 0% 100%, 83.27% 102.3%, 83.27% 103.04%, 100.83% -4.63%);
 
@@ -23,7 +23,6 @@ $rigthImage: polygon(0px 0px, 0% 0, 0% 100%, 83.27% 102.3%, 83.27% 103.04%, 100.
 
 @mixin section {
     width: 100%;
-    padding-left: 400px;
 }
 
 @font-face {

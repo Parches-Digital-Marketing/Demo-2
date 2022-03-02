@@ -42,12 +42,6 @@
                     padding-bottom: 50px;
                     border-radius: 34px;
                     box-shadow: 0 0 10px 1px black;
-                    &:nth-child(2) {
-                        // background-color: #323232;
-                        .list__title {
-                            // background-color: $primaryColor;
-                        }
-                    }
                     .list__title {
                         display: flex;
                         flex-direction: column;
@@ -77,6 +71,10 @@
                         display: flex;
                         flex-direction: column;
                         gap: 40px;
+                        .fas {
+                            color: $primaryColor;
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
@@ -93,6 +91,9 @@
             padding-top: 10px;
             padding-bottom: 40px;
             box-sizing: border-box;
+            .scroll {
+                top: -350px;
+            }
             .plans {
                 width: 100%;
                 .list {
