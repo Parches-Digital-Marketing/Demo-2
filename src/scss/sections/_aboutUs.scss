@@ -52,6 +52,9 @@
         height: 100%;
         box-sizing: border-box;
         .section {
+            .scroll {
+                top: 120px
+            }
             .about-us {
                 height: 100%;
                 flex-direction: column;

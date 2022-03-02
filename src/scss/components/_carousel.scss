@@ -54,22 +54,6 @@
                         color: $primaryColor;
                     }
                 }
-                .close-button {
-                    position: absolute;
-                    top: 50px;
-                    left: 0px;
-                    width: 50px;
-                    height: 50px;
-                    background-color: rgba(0, 0, 0, 0);
-                    border: none;
-                    border-radius: 300px;
-                    color: white;
-                    font-size: 30px;
-                    cursor: pointer;
-                    &:hover {
-                        color: $primaryColor;
-                    }
-                }
             }
         }
         .wrapper {
@@ -150,16 +134,12 @@
                 height: 30vw;
                 .carousel__item {
                     width: 100%;
-                    max-width: 1000px;
+                    max-width: 1100px;
                 }
                 .buttons {
                     padding-top: 0;
                     .button {
                         font-size: 30px;
-                    }
-                    .close-button {
-                        font-size: 20px;
-                        top: 0;
                     }
                 }
             }

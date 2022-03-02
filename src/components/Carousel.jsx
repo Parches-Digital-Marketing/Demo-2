@@ -21,7 +21,6 @@ export default function Carousel({images, selectedImage}) {
                     <div className="buttons">
                         <button className="button" onClick={() => moveCarouselImage(-1)}><i className="fas fa-angle-left"></i></button>
                         <button className="button" onClick={() => moveCarouselImage(1)}><i className="fas fa-angle-right"></i></button>
-                        <button className="close-button" id="close-button"><i className="fas fa-times"></i></button>
                     </div>
                 </div>
                 <div className="wrapper">
