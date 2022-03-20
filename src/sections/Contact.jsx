@@ -1,4 +1,4 @@
-import instagramLogo from '../images/instagramLogo.png'
+import instagramLogo from '../images/instagramlogo.png'
 import facebookLogo from '../images/facebookLogo.png'
 import whatsAppLogo from '../images/whatsAppLogo.png'
 
