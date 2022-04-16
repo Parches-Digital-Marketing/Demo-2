@@ -73,12 +73,15 @@
                 flex-direction: column;
                 gap: 10px;
             }
-            .map {
-                border:0;
-                box-shadow: 0 0 10px .1px black;
-                border-radius: 10px;
-                width: 513px;
-                height: 200px;
+            .map-container {
+                .map {
+                    border:0;
+                    box-shadow: 0 0 10px .1px black;
+                    border-radius: 10px;
+                    width: 100%;
+                    max-width: 500px;
+                    height: 200px;
+                }
             }
         }
     }
